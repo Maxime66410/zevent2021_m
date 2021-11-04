@@ -1,0 +1,94 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "fabric.vmat"
+								to = "materials/table_zevent/nappe/nappe.vmat"
+							},
+							{
+								from = "metal.vmat"
+								to = "materials/table_zevent/pied/pied.vmat"
+							},
+							{
+								from = "table.vmat"
+								to = "materials/table_zevent/table/table.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_prop = "default"
+						origin = [ 0.133078, -0.329103, 53.16983 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 84.667587, 179.911331, 14.730485 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_prop = "default"
+						origin = [ -0.033831, 75.937805, 30.209019 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 76.033432, 3.194707, 60.6521 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "wood"
+						collision_prop = "default"
+						origin = [ -0.033831, -75.997635, 30.209019 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 76.033432, 3.194707, 60.6521 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/Table_ZEvent/TableZEvent.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.38
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
